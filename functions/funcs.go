@@ -7,9 +7,9 @@ func Add(a, b int) int {
 	return a + b
 }
 
-var Sub = func(x, z int) int {
+var Sub = Operation(func(x, z int) int {
 	return x - z
-}
+})
 
 // Type nommé
 type Operation func(int, int) int
