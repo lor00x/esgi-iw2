@@ -1,4 +1,4 @@
-module iw2
+module github.com/lor00x/esgi-iw2
 
 go 1.22.1
 
